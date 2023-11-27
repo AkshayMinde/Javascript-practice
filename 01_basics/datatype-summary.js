@@ -31,3 +31,25 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+// ! Memory - Stack(Primitive) and Heap(Non-Primitive)
+
+let myName = "AkshayMinde";
+
+let anotherName = myName;
+anotherName = "JS learning"
+
+console.log(myName);
+console.log(anotherName);
+
+let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1;
+user2.email = "akshay@user.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
